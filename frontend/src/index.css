@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', sans-serif;
+  --font-mono: 'Fira Code', 'Courier New', monospace;
+  
+  --color-brand-violet: #8b5cf6;
+  --color-brand-cyan: #06b6d4;
+  --color-brand-emerald: #10b981;
+  --color-brand-amber: #f59e0b;
+  --color-brand-rose: #f43f5e;
+  
+  --color-dark-bg: transparent;
+  --color-dark-card: rgba(18, 12, 34, 0.45);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8b5cf6;
+}
+
+/* Glassmorphism Class */
+.glass-card {
+  background: rgba(18, 12, 34, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(139, 92, 246, 0.12);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  border-color: rgba(139, 92, 246, 0.3);
+  box-shadow: 
+    0 12px 40px -10px rgba(139, 92, 246, 0.25),
+    0 0 15px 0 rgba(139, 92, 246, 0.1);
+}
+
+.glow-violet {
+  border-color: rgba(139, 92, 246, 0.35);
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.2);
+}
+.glow-cyan {
+  border-color: rgba(6, 182, 212, 0.35);
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.2);
+}
+.glow-emerald {
+  border-color: rgba(16, 185, 129, 0.35);
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.2);
+}
+.glow-amber {
+  border-color: rgba(245, 158, 11, 0.35);
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.25);
+}
+
+/* Glowing Border States */
+.pulse-glow-violet {
+  animation: glow-violet 2.5s infinite ease-in-out;
+}
+
+.pulse-glow-cyan {
+  animation: glow-cyan 2.5s infinite ease-in-out;
+}
+
+.pulse-glow-amber {
+  animation: glow-amber 2.5s infinite ease-in-out;
+}
+
+.pulse-glow-emerald {
+  animation: glow-emerald 2.5s infinite ease-in-out;
+}
+
+@keyframes glow-violet {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(139, 92, 246, 0.15);
+    border-color: rgba(139, 92, 246, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.45);
+    border-color: rgba(139, 92, 246, 0.55);
+  }
+}
+
+@keyframes glow-cyan {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(6, 182, 212, 0.15);
+    border-color: rgba(6, 182, 212, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(6, 182, 212, 0.45);
+    border-color: rgba(6, 182, 212, 0.55);
+  }
+}
+
+@keyframes glow-amber {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(245, 158, 11, 0.15);
+    border-color: rgba(245, 158, 11, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.45);
+    border-color: rgba(245, 158, 11, 0.55);
+  }
+}
+
+@keyframes glow-emerald {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(16, 185, 129, 0.15);
+    border-color: rgba(16, 185, 129, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.45);
+    border-color: rgba(16, 185, 129, 0.55);
+  }
+}
+
+/* Pulsing AI Recommendation Card border glow */
+.pulse-recommendation {
+  animation: glow-recommendation 3s infinite ease-in-out;
+}
+
+@keyframes glow-recommendation {
+  0%, 100% {
+    border-color: rgba(139, 92, 246, 0.2);
+    box-shadow: 0 0 4px rgba(139, 92, 246, 0.05);
+  }
+  50% {
+    border-color: rgba(139, 92, 246, 0.5);
+    box-shadow: 0 0 12px rgba(139, 92, 246, 0.2);
+  }
+}
+
+/* Slide in list items */
+.slide-in-item {
+  animation: slide-in 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Typography styles */
+h1, h2, h3, h4 {
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: -0.015em;
+}
+
+/* Base Body settings */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #040209;
+  background-image: 
+    radial-gradient(circle at 25% 15%, rgba(139, 92, 246, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 75% 75%, rgba(6, 182, 212, 0.08) 0%, transparent 50%),
+    linear-gradient(145deg, #070311 0%, #0d061f 50%, #030107 100%);
+  background-attachment: fixed;
+}

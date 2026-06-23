@@ -1,0 +1,307 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Revise electromagnetism formula sheet",
+      "category": "Study",
+      "priority": "High",
+      "status": "Pending",
+      "quadrant": 1
+    },
+    {
+      "id": 2,
+      "title": "Buy lab materials for semester project",
+      "category": "Life",
+      "priority": "Medium",
+      "status": "Pending",
+      "quadrant": 2
+    },
+    {
+      "id": 3,
+      "title": "Draft Physics lab report outline",
+      "category": "Study",
+      "priority": "High",
+      "status": "Pending",
+      "quadrant": 1
+    },
+    {
+      "id": 4,
+      "title": "Register for final exam slots",
+      "category": "Study",
+      "priority": "High",
+      "status": "Completed",
+      "quadrant": 1
+    },
+    {
+      "id": 5,
+      "title": "Weekly Review and Planning (Prepare upcoming syllabus)",
+      "category": "Study",
+      "priority": "High",
+      "status": "Pending",
+      "quadrant": 2
+    },
+    {
+      "id": 6,
+      "title": "Active recall sessions for Physics",
+      "category": "Study",
+      "priority": "High",
+      "status": "Pending",
+      "quadrant": 1
+    },
+    {
+      "id": 7,
+      "title": "Read electromagnetism equations",
+      "category": "Study",
+      "priority": "High",
+      "status": "Pending",
+      "quadrant": 1
+    },
+    {
+      "id": 9,
+      "title": "Calculus exercises",
+      "category": "Study",
+      "priority": "High",
+      "status": "Pending",
+      "quadrant": 2
+    },
+    {
+      "id": 11,
+      "title": "Prepare water bottle & gym gear",
+      "category": "Life",
+      "priority": "Medium",
+      "status": "Pending",
+      "quadrant": 3
+    }
+  ],
+  "calendar": [
+    {
+      "id": 1,
+      "title": "Morning Gym Workout",
+      "start": "8:00 AM",
+      "end": "9:00 AM",
+      "type": "Life",
+      "day": "Monday"
+    },
+    {
+      "id": 2,
+      "title": "Calculus Lecture",
+      "start": "10:00 AM",
+      "end": "11:30 AM",
+      "type": "Study",
+      "day": "Monday"
+    },
+    {
+      "id": 4,
+      "title": "Dinner with Parents",
+      "start": "7:00 PM",
+      "end": "8:30 PM",
+      "type": "Life",
+      "day": "Wednesday"
+    },
+    {
+      "id": 7,
+      "title": "Mock Exam Simulation",
+      "start": "2:00 PM",
+      "end": "4:30 PM",
+      "type": "Study",
+      "day": "Thursday"
+    },
+    {
+      "id": 8,
+      "title": "Spaced Revision (Math)",
+      "start": "4:00 PM",
+      "end": "5:30 PM",
+      "type": "Study",
+      "day": "Monday"
+    },
+    {
+      "id": 9,
+      "title": "Buffer Catchup & Sync",
+      "start": "3:00 PM",
+      "end": "4:30 PM",
+      "type": "Study",
+      "day": "Friday"
+    },
+    {
+      "id": 7,
+      "title": "Active Recall: Core theories of Physics",
+      "start": "4:00 PM",
+      "end": "5:30 PM",
+      "type": "Study",
+      "day": "Monday"
+    },
+    {
+      "id": 8,
+      "title": "Exercise: Light cardio workout",
+      "start": "6:00 PM",
+      "end": "7:30 PM",
+      "type": "Life",
+      "day": "Monday"
+    },
+    {
+      "id": 9,
+      "title": "Spaced Repetition: Topic revision on Physics",
+      "start": "3:00 PM",
+      "end": "4:30 PM",
+      "type": "Study",
+      "day": "Tuesday"
+    },
+    {
+      "id": 10,
+      "title": "Revision: Chemistry & Physics concepts",
+      "start": "4:00 PM",
+      "end": "5:30 PM",
+      "type": "Study",
+      "day": "Wednesday"
+    },
+    {
+      "id": 11,
+      "title": "Mock Test: Mock paper 1 for Physics",
+      "start": "2:00 PM",
+      "end": "4:00 PM",
+      "type": "Study",
+      "day": "Thursday"
+    },
+    {
+      "id": 12,
+      "title": "Buffer Time: Weak-topic catchup",
+      "start": "3:00 PM",
+      "end": "4:30 PM",
+      "type": "Study",
+      "day": "Friday"
+    },
+    {
+      "id": 13,
+      "title": "AI Recovery Day",
+      "start": "9:00 AM",
+      "end": "5:00 PM",
+      "type": "Life",
+      "day": "Saturday"
+    },
+    {
+      "id": 14,
+      "title": "Weekly Review and Planning",
+      "start": "10:00 AM",
+      "end": "12:00 PM",
+      "type": "Study",
+      "day": "Sunday"
+    }
+  ],
+  "studyProgress": {
+    "completedHours": 12,
+    "targetHours": 50,
+    "confidenceScores": {
+      "Physics": 55,
+      "Calculus": 78,
+      "Chemistry": 45
+    },
+    "activeRecallDeckCount": 24
+  },
+  "memories": [
+    {
+      "id": 1,
+      "key": "routine",
+      "value": "User prefers daily workouts in the evening at 6:00 PM to unwind.",
+      "timestamp": "2026-06-23T20:38:34.909Z"
+    },
+    {
+      "id": 2,
+      "key": "study_preference",
+      "value": "User prefers active recall blocks scheduled before spaced repetitions.",
+      "timestamp": "2026-06-23T20:38:34.910Z"
+    }
+  ],
+  "focusStreak": 5,
+  "securityLogs": [
+    {
+      "timestamp": "2026-06-23T20:38:34.910Z",
+      "event": "Security Gate database session started",
+      "severity": "Info",
+      "status": "Safe"
+    },
+    {
+      "timestamp": "2026-06-23T20:39:26.913Z",
+      "event": "Tool call requested: schedule_event",
+      "severity": "Info",
+      "status": "Auditing"
+    },
+    {
+      "timestamp": "2026-06-23T20:39:26.915Z",
+      "event": "Scheduled event: \"Mock Exam Simulation\"",
+      "severity": "Info",
+      "status": "Success"
+    },
+    {
+      "timestamp": "2026-06-23T21:09:00.263Z",
+      "event": "Tool call requested: schedule_event",
+      "severity": "Info",
+      "status": "Auditing"
+    },
+    {
+      "timestamp": "2026-06-23T21:09:00.264Z",
+      "event": "Scheduled event: \"Spaced Revision (Math)\"",
+      "severity": "Info",
+      "status": "Success"
+    },
+    {
+      "timestamp": "2026-06-23T21:09:02.134Z",
+      "event": "Tool call requested: schedule_event",
+      "severity": "Info",
+      "status": "Auditing"
+    },
+    {
+      "timestamp": "2026-06-23T21:09:02.135Z",
+      "event": "Scheduled event: \"Buffer Catchup & Sync\"",
+      "severity": "Info",
+      "status": "Success"
+    },
+    {
+      "timestamp": "2026-06-23T21:09:10.175Z",
+      "event": "Tool call requested: create_study_plan",
+      "severity": "Info",
+      "status": "Auditing"
+    },
+    {
+      "timestamp": "2026-06-23T21:09:10.176Z",
+      "event": "7-Day Study and planning matrix created for Physics leading to next week.",
+      "severity": "Info",
+      "status": "Success"
+    },
+    {
+      "timestamp": "2026-06-23T21:09:10.177Z",
+      "event": "Tool call requested: schedule_event",
+      "severity": "Info",
+      "status": "Auditing"
+    },
+    {
+      "timestamp": "2026-06-23T21:09:10.177Z",
+      "event": "Schedule conflict detected: \"Daily Gym Workout\" conflicts with \"Exercise: Light cardio workout\" at 6:00 PM-7:30 PM on Monday",
+      "severity": "Low",
+      "status": "Resolved (Flagged)"
+    },
+    {
+      "timestamp": "2026-06-23T21:09:10.178Z",
+      "event": "Tool call requested: optimize_tasks",
+      "severity": "Info",
+      "status": "Auditing"
+    },
+    {
+      "timestamp": "2026-06-23T21:09:10.179Z",
+      "event": "Task optimization completed. Classified 3 tasks.",
+      "severity": "Info",
+      "status": "Success"
+    },
+    {
+      "timestamp": "2026-06-23T21:11:26.271Z",
+      "event": "Tool call requested: execute_skill_command",
+      "severity": "Info",
+      "status": "Auditing"
+    },
+    {
+      "timestamp": "2026-06-23T21:11:26.272Z",
+      "event": "CLI Command executed safely: \"todo-cli list\"",
+      "severity": "Low",
+      "status": "Allowed"
+    }
+  ]
+}

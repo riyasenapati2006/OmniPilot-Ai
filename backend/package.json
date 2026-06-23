@@ -1,0 +1,12 @@
+{
+  "name": "omnipilot-ai-backend",
+  "version": "1.0.0",
+  "description": "OmniPilot AI Backend Multi-Agent Simulator & MCP Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
