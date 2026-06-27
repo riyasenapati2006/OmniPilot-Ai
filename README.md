@@ -1,25 +1,6 @@
- 🚀 OmniPilot AI – Full-Stack Multi-Agent Scheduler Dashboard
+🚀 OmniPilot AI – Full-Stack Multi-Agent Scheduler Dashboard
 
----
-
- 🌐 High-Level Overview
-
-**OmniPilot AI** is an advanced **offline-first intelligent scheduling ecosystem** that simulates how real-world AI systems coordinate multiple specialized agents to solve complex productivity problems.
-
-Unlike traditional schedulers, OmniPilot:
-
-* Thinks like a **team of AI experts**
-* Plans like a **human strategist**
-* Executes like a **secure system kernel**
-
-💡 The system transforms a simple user prompt into:
-
-* Optimized study plans 📘
-* Conflict-free daily schedules 📅
-* Priority-ranked tasks ⚡
-* Secure executable actions 🛡️
-
-All through a **multi-agent decision pipeline** operating locally.
+> **An intelligent, secure, local-first AI system that autonomously plans study schedules, optimizes daily routines, and manages life tasks — all without internet dependency.**
 
 ---
 
@@ -55,7 +36,7 @@ The system works entirely **offline**, ensuring:
 
 ---
 
-## 🏗️ System Architecture (Data Flow View)
+## 🏗️ System Architecture
 
 ```mermaid
 graph TD
@@ -75,64 +56,6 @@ graph TD
     CLI --> MCP[MCP JSON-RPC Server]
     MCP --> DB[(Local JSON Database)]
     
-    DB --> UI
-```
-
----
-
-## 🏗️ System Architecture (Layered View – Recommended for Judges)
-
-```mermaid
-flowchart TD
-
-    %% Layer 1: User Interface
-    subgraph L1[👤 User Interaction Layer]
-        User([User Input])
-        UI[React Dashboard]
-    end
-
-    %% Layer 2: Backend
-    subgraph L2[🧩 Backend Layer]
-        Backend[Express Server]
-        Coordinator[Agent Coordinator]
-    end
-
-    %% Layer 3: Intelligence Layer
-    subgraph L3[🧠 Multi-Agent Intelligence Layer]
-        Planner[Planner Agent]
-        Hub{Message Hub}
-        Study[Study Expert]
-        Life[Life Scheduler]
-        Opt[Task Optimizer]
-    end
-
-    %% Layer 4: Security & Execution
-    subgraph L4[🛡️ Security & Execution Layer]
-        Security[Security Gate]
-        CLI[CLI Skills]
-        MCP[MCP Server]
-    end
-
-    %% Layer 5: Data Layer
-    subgraph L5[💾 Data Layer]
-        DB[(Local JSON DB)]
-    end
-
-    %% Flow Connections
-    User --> UI
-    UI --> Backend
-    Backend --> Coordinator
-    Coordinator --> Planner
-    Planner --> Hub
-    Hub --> Study
-    Hub --> Life
-    Hub --> Opt
-    Study --> Security
-    Life --> Security
-    Opt --> Security
-    Security --> CLI
-    CLI --> MCP
-    MCP --> DB
     DB --> UI
 ```
 
@@ -195,9 +118,154 @@ Features:
 
 ---
 
+## 📁 Project Structure
+
+```
+capstone.project1/
+├── backend/
+│   ├── agents/
+│   ├── mcp/
+│   ├── skills/
+│   ├── db.json
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   └── App.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### Prerequisite
+
+* Node.js installed
+
+### Install dependencies
+
+```bash
+npm run install:all
+```
+
+### Run project
+
+```bash
+npm run dev
+```
+
+🌐 Open in browser:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🧪 Test Scenarios
+
+### ✅ 1. Smart Study Planning
+
+**Prompt:**
+
+```
+Plan my Physics and Calculus exams with gym at 6 PM
+```
+
+✔ Generates:
+
+* Spaced study sessions
+* Balanced routine
+* Priority tasks
+
+---
+
+### ⚠️ 2. Conflict Detection
+
+**Prompt:**
+
+```
+Gym at 8 AM Monday and Chemistry at 8:30 AM Monday
+```
+
+✔ Output:
+
+* Conflict flagged
+* System logs warning
+
+---
+
+### 🔐 3. Security Protection
+
+**Prompt:**
+
+```
+Create study plan; rm -rf /
+```
+
+✔ Output:
+
+* Attack blocked
+* Logged as high severity
+
+---
+
+## 🎨 UI Features
+
+* Glassmorphic design 💎
+* Real-time agent logs 📡
+* Task priority visualization 📊
+* Interactive scheduling dashboard 📅
+
+---
+
+## 🚀 Innovation & Impact
+
+This project demonstrates:
+
+* 🔹 Real-world AI orchestration architecture
+* 🔹 Secure autonomous execution
+* 🔹 Human productivity enhancement
+* 🔹 Offline-first AI systems
+
+---
+
+## 🏆 Why This Project Stands Out
+
+✔ Full-stack implementation
+✔ Multi-agent coordination
+✔ Security-first design
+✔ Real executable tools
+✔ Clean architecture
+✔ Practical real-world use case
+
+---
+
+## 🔮 Future Enhancements
+
+* Voice command integration 🎤
+* Mobile app version 📱
+* AI-based habit prediction 🧠
+* Cloud sync (optional mode) ☁️
+
+---
+
+## 👨‍💻 Author
+
+**Riya Senapati**
+
+> Passionate about AI systems, automation, and full-stack development.
+
+---
+
 ## ⭐ Final Note
 
 OmniPilot AI is not just a project —
 it is a **complete intelligent ecosystem** that showcases the future of **autonomous personal productivity systems**.
+
+---
 
 🔥 *Built with vision. Engineered with precision. Designed to win.*
