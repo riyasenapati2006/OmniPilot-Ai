@@ -1,4 +1,4 @@
-🚀 OmniPilot AI – Full-Stack Multi-Agent Scheduler Dashboard
+#🚀 OmniPilot AI – Full-Stack Multi-Agent Scheduler Dashboard
 
 > **An intelligent, secure, local-first AI system that autonomously plans study schedules, optimizes daily routines, and manages life tasks — all without internet dependency.**
 
@@ -122,22 +122,38 @@ Features:
 
 ```
 capstone.project1/
-├── backend/
-│   ├── agents/
-│   ├── mcp/
-│   ├── skills/
-│   ├── db.json
-│   └── server.js
 │
-├── frontend/
-│   ├── src/
-│   └── App.jsx
+├── 📦 backend/                     # Core server & AI system logic
+│   ├── 🤖 agents/                 # Multi-agent system modules
+│   │   ├── coordinator.js         # Central agent orchestrator
+│   │   ├── planner.js             # Prompt analysis & routing
+│   │   ├── study-expert.js        # Study planning logic
+│   │   ├── life-scheduler.js      # Routine & calendar handling
+│   │   └── task-optimizer.js      # Task prioritization engine
+│   │
+│   ├── 🔗 mcp/                    # Model Context Protocol layer
+│   │   ├── mcp-server.js          # JSON-RPC tool handler
+│   │   └── security-gate.js       # Input validation & security filter
+│   │
+│   ├── ⚙️ skills/                 # CLI-based executable tools
+│   │   ├── todo-cli.js            # Task management CLI
+│   │   └── cal-cli.js             # Calendar scheduling CLI
+│   │
+│   ├── 🗄️ db.json                # Local database (auto-updated)
+│   ├── db.js                      # Database helper functions
+│   └── server.js                  # Express server entry point
 │
-├── package.json
-└── README.md
+├── 🎨 frontend/                   # User interface (React + Vite)
+│   ├── src/                       # UI source code
+│   │   ├── App.jsx                # Main dashboard UI
+│   │   ├── main.jsx               # React entry point
+│   │   └── index.css              # Glassmorphic styling
+│   │
+│   └── index.html                # HTML root file
+│
+├── 📄 package.json                # Root dependency & scripts manager
+└── 📘 README.md                   # Project documentation
 ```
-
----
 
 ## ⚙️ Installation & Setup
 
