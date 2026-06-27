@@ -21,7 +21,7 @@ The system works entirely **offline**, ensuring:
 * Data privacy 🔒
 * Low latency ⚡
 * Full local control 💻
-
+<img width="1913" height="983" alt="Image" src="https://github.com/user-attachments/assets/f9e7cb29-6cd3-4069-99c9-8735784e9149" />
 ---
 
 ## ✨ Key Highlights
