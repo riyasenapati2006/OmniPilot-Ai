@@ -1,4 +1,4 @@
-#🚀 OmniPilot AI – Full-Stack Multi-Agent Scheduler Dashboard
+🚀 OmniPilot AI – Full-Stack Multi-Agent Scheduler Dashboard
 
 > **An intelligent, secure, local-first AI system that autonomously plans study schedules, optimizes daily routines, and manages life tasks — all without internet dependency.**
 
@@ -284,4 +284,3 @@ it is a **complete intelligent ecosystem** that showcases the future of **autono
 
 ---
 
-🔥 *Built with vision. Engineered with precision. Designed to win.*
